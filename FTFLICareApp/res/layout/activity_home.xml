@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/todayChartHeaderNameTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:text=""
+                android:textColor="#0404B4"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/todayChartHeaderName2TextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/apostrophyText"
+                android:textColor="#0404B4"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/todayChartHeaderProfileTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="4"
+                android:gravity="left"
+                android:text="@string/profileText"
+                android:textColor="#0404B4"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/secondLineHeaderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/secondLineHeaderTextView"
+            android:textColor="#FF8000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/thirdLineHeaderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/thirdLineHeaderTextView"
+            android:textColor="#2ECCFA"
+            android:textSize="15sp" />
+    </LinearLayout>
+    
+        <ListView
+            android:id="@+id/dailyDietList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3" >
+        </ListView>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/upcomingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/upcomingTextView"
+            android:textColor="#FF8000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/thupcomingHeaderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/thirdLineHeaderTextView"
+            android:textColor="#2ECCFA"
+            android:textSize="15sp" />
+        
+        <ListView
+            android:id="@+id/upComingDietList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8" >
+        </ListView>
+        
+    </LinearLayout>
+
+       
+          
+</LinearLayout>
+

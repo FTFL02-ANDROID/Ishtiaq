@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FTFLICareApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="editProfile">Edit Profile</string>
+
+    <!-- creat profile -->
+    <string name="textIcare">ICare</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="textCreateProfileHeader">ICare Diet Chart</string>
+    <string name="textHeaderFirstLine">Create your profile here</string>
+    <string name="textHeaderSecondLine">Add your daily diet</string>
+    <string name="textHeaderThirdLine">"Set Alarm and Be healthy"</string>
+    <string name="textCreateProfile">Create Profile</string>
+    <string name="textName">Name</string>
+    <string name="textFatherName">"Father's Name"</string>
+    <string name="textMotherName">"Mother's Name"</string>
+    <string name="textDOB">Date of Birth</string>
+    <string name="textWeight">Weight</string>
+    <string name="textHeight">Height</string>
+    <string name="textEyeColor">Eye Color</string>
+    <string name="textSpecialComment">Special Comment</string>
+    <string name="hintName">Add your Name</string>
+    <string name="hintFatherName">"Add your Father's Name"</string>
+    <string name="hintMotherName">"Add your Mother's Name"</string>
+    <string name="hintDOB">Add your Date of Birth</string>
+    <string name="hintWeight">Add your Weight</string>
+    <string name="hintHeight">Add your Height</string>
+    <string name="hintEyeColor">Add your Eye Color</string>
+    <string name="hintComment">Add Comment</string>
+    <string name="hintBirthPlace">Enter your Birth Place</string>
+    <string name="buttonAddDiet">"Add Diet"</string>
+    <string name="textBirthPlace">Birth Place</string>
+    <string name="radioButtonMale">Male</string>
+    <string name="radioButtonFemale">Female</string>
+    <string name="textGender">Gender</string>
+     <string name="action_settings">Settings</string>
+     
+     <!-- creat Diet -->
+    <string name="addDietTextView">"Add Diet"</string>
+	<string name="feastNameView">"Add feast name"</string>
+	<string name="pickDayTextView">"Pick a Day"</string>
+	<string name="pickTimeTextView">"Pick a Time"</string>
+	<string name="dateEditText">"Select date"</string>
+	<string name="timeEditText">"Select time"</string>
+	<string name="menuView">"Add menu"</string>
+	<string name="alarmCheckBox">"Set alarm"</string>
+	<string name="addDietChartButton">"Add to diet chart"</string>
+	<string name="feastNameText">"Feast name"</string>
+	<string name="menuText">"Menu:"</string>
+	
+	
+	<!-- each row -->
+	<string name="feastTimeText">"Time"</string>
+	
+	<!-- home -->
+	<string name="profileText">Profile</string>
+	<string name="apostrophyText">"'s"</string>
+	<string name="secondLineHeaderTextView">"Today's Diet Chart"</string>
+	<string name="thirdLineHeaderTextView">"Select to update or delete item"</string>
+	<string name="upcomingTextView">"Upcoming diet"</string>
+	
+	<!-- edit diet -->
+	<string name="editDietTextView">"Edit Your Diet Plan"</string>
+	<string name="updateDietChartButton">"Update"</string>
+	
+	<!--  action bar menus -->
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="action_view_profile">View Profile</string>
+    
+    <string name="action_create_diet">Create diet</string>
+    <string name="action_edit_diet">Edit diet</string>
+    
+    
+    
+        
+ 
+   <!-- Strings into programm  -->
+    <string name="edit_diet">Edit diet</string>
+    <string name="delete_diet">Delete diet</string>
+     <string name="options">Options</string>
+     <string name="delete_dialog_title">Confirm Delet ???</string> 
+     <string name="delete_dialog_message">Are you sure you want delete this??</string> 
+     <string name="yes">Yes</string> 
+     <string name="no">No</string> 
+     <string name="cancel">Cancel</string> 
+     <string name="male">Male</string> 
+     <string name="female">Female</string> 
+   
+
+</resources>
