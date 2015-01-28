@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyResturant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="insertResturant">Insert Restaurant Info</string>
+      <string name="home">Home</string>
+    
+    <!-- INSERT RESTURANT DATA ACTIVITY -->	<string name="insert_header"> Insert Information Of Resturants</string>
+	<string name="update_header"> Update Information Of Resturants</string>
+	<string name="view_header"> View Resturant Information</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="menus">Menus</string>
+    <string name="special_menu">Special Menu</string>
+    <string name="close_day">Close Day</string>
+    <string name="daily_open_time">Daily Open time</string>
+    <string name="description">description</string>
+    <string name="insert">Insert</string>
+    <string name="Update">Update</string>
+     <string name="Show_map">Show Map</string>
+      
+   
+    
+    
+</resources>
