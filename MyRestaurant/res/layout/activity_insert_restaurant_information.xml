@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      
+        android:background="@drawable/images"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_custom"
+                android:gravity="center"
+                android:text="@string/insert_header"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/name"
+                    android:textColor="#3F3F3F"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/name_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                   
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/addrss_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/address"
+                  android:textColor="#3F3F3F"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/address_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" 
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/latitude_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/latitude"
+                    android:textColor="#3F3F3F"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:id="@+id/latitude_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/longitude_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/longitude"
+                   android:textColor="#3F3F3F"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:id="@+id/longitude_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/menus_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/menus"
+                  android:textColor="#3F3F3F"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/menus_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/special_menu_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/special_menu"
+                   android:textColor="#3F3F3F"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:id="@+id/special_menu_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/close_day_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/close_day"
+                  android:textColor="#3F3F3F"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:id="@+id/close_day_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/daily_open_time_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/daily_open_time"
+                    android:textColor="#3F3F3F"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:id="@+id/daily_opentime_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/description_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/description"
+                    android:textColor="#3F3F3F"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:id="@+id/description_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+				  <Button
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1.5"
+            android:text="@string/capture_image"
+            android:onClick="dispatchTakePictureIntent"
+           
+            android:background="#50FFFFFF"
+          
+            />
+				 <ImageView
+				       android:id="@+id/ivPhotoView"
+				       android:layout_width="match_parent"
+				       android:layout_height="wrap_content"
+				      
+				       android:src="@drawable/ic_launcher"
+				       android:contentDescription="@string/app_name" />
+            </LinearLayout>
+            
+
+        </LinearLayout>
+		
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_custom"
+            android:onClick="insertButtonClicked"
+            android:text="@string/insert"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</ScrollView>
